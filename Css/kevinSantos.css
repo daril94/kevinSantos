@@ -1,0 +1,149 @@
+:root {
+    --color-principal: #BF8123;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*** Menu***/
+
+.contenedor-menu {
+    background-color: var(--color-principal);
+    height: auto;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: var(--color-blanco);
+    font-size: 2.2rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.menu a:hover {
+    color: var(--color-negro);
+    font-size: 2.5rem;
+}
+
+
+/*** Footer***/
+
+.contenedor-footer {
+    background-color: var(--color-principal);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer .footer-items {
+    padding: 1rem 1rem;
+    color: var(--color-blanco);
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+
+/*** Index Video ***/
+
+.contenedor-videos {
+    width: 100%;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.video {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*** index ***/
+
+.contenedor-completo {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-biografia {
+    width: 90%;
+    position: relative;
+    padding: 0;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3em;
+    color: var(--color-principal);
+    font-weight: bold;
+    text-align: center;
+}
+
+.espacio-medio {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.espacio-completo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.biografia {}
+
+.biografia-item {
+    width: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.biografia-item a {
+    font-size: 2rem;
+    color: var(--color-principal);
+}
+
+.biografia-item p {
+    font-size: 2rem;
+}
+
+.biografia-item p a:hover {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 500px;
+}
